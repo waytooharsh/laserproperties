@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Lasers</title>
+</head>
+<body>
+    <div id="title">
+        <h1 id="name">LASER'S PROPERTIES</h1>
+    </div>
+    <div id="selection">
+        <form action="#" method="get">
+            <label for="variety">Variety of Laser</label>
+            <select name="lasers" id="variety">
+                <option disabled selected value>--Select--</option>
+                <option value="ruby">Ruby</option>
+                <option value="ndyag">Nd:YAG</option>
+                <option value="hene">He-Ne</option>
+                <option value="co2">CO2</option>
+            </select>
+        </form>
+    </div>
+    <div id="light">
+        <img src="pen.png" alt="Laser Pen" id="pen">
+        <div class="laser-beam"></div>
+    </div>
+    <div id="properties">
+        <h3 id="var-name"></h3>
+        <table id="define-table">
+            
+        </table>
+    </div>
+    <script type="text/javascript" src="fetch.js"></script>
+</body>
+</html>
